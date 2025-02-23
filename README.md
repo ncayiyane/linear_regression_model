@@ -183,4 +183,26 @@ Expected output:
 - Loss decreases over epochs
 - Text-based plot of `y = 2x + 1`
 
+---
+
+## **6. Resources Used**
+- **Rust Documentation**: [https://doc.rust-lang.org/](https://doc.rust-lang.org/)
+- **Burn Library Docs**: [https://docs.rs/burn/0.16.0/burn/](https://docs.rs/burn/0.16.0/burn/)
+- **GitHub Guide**: [https://docs.github.com/en/get-started](https://docs.github.com/en/get-started)
+- **Rust Tutorials**: Various online articles and guides
+
+---
+
+## **7. Reflection & Learning**
+- **Help Received**: Used Burn documentation, Rust documentation, and AI assistance.
+- **Challenges Faced**:
+  - Encountered multiple errors, including redefinition issues, deprecated methods, and incorrect generics usage.
+  - Debugging required fixing the import issue by renaming `Backend` and adjusting generics in `Linear`.
+  - Corrected deprecated methods by replacing `gen_range` with `random_range`.
+- **Lessons Learned**:
+  - Understanding Rust's strict type system and debugging tools.
+  - Handling generics properly in Rust libraries.
+  - Adapting to API changes and deprecated methods.
+
+ **Project Completed Successfully!** 
 
